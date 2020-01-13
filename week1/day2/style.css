@@ -1,5 +1,109 @@
-/*cv{
+body{
+	background-color: #dafff9;
+	font-family: "Comic Sans MS";
+}
+
+
+.container{	
 	display:grid;
-	grid-template-ares:
-	"main","main","main";
-}*/
+	grid-template-columns: 20% 30% 10% 20% 10%;
+	grid-template-rows: 20% 20% 20% 20% 40%; 
+	grid-column-gap: 5px;
+  	grid-row-gap: 5px;	
+
+}
+
+#about{
+	grid-area: abo;
+	background-color: #9fcbcc;
+	border-radius: 15px 50px;
+	border-left: 3px solid black;
+	transition: all 1s;
+	grid-column-start: 1;
+	grid-column-end: 2;
+	grid-row-start: 1;
+	grid-row-end: 4;
+}
+#content{
+	grid-area: pic;
+	background-color: #8babb0;
+	border-radius: 15px 50px 30px 5px; 
+	border-right: 3px solid black;
+	grid-column-start: 2;
+	grid-column-end: 6;
+	grid-row-start: 1;
+	grid-row-end: 4;
+
+}
+#education{
+	grid-area: edu;
+	background-color: #5ea7bd;
+	border-radius: 15px;
+	transition: all 1s;
+	border-right: 3px solid black;
+	grid-column-start: 4;
+	grid-column-end: 6;
+	grid-row-start: 4;
+	grid-row-end: 6;
+}
+#experience{
+	grid-area: exp;
+	background-color: #43ffae;
+	transition: all;
+	transition: all 1s;
+	border-radius: 15px;
+	grid-column-start: 2;
+	grid-column-end: 4;
+	grid-row-start: 4;
+	grid-row-end: 6;
+	border: 3px solid #bfe0db;
+}
+ 
+#refrences{
+	grid-area: ref;
+	background-color: #7843ff;
+	border-radius: 15px 50px 30px 5px;
+	border-bottom: 3px solid black;
+	border-radius: 15px;
+	grid-column-start: 1;
+	grid-column-end: 2;
+	grid-row-start: 4;
+	grid-row-end: 6;
+}
+
+h1{
+	color: #2888f7;
+	border-bottom: 1px solid black;
+	border-right: 1px solid black;
+	margin-right: 70%; /*border didnt work for some reason*/
+	padding-left: 5%;
+}
+
+a{
+	color: #6334b0;
+}
+
+.text{
+text-align: center;
+}
+p, h3, li{
+	margin-left: 7px;
+}
+
+#education:hover {
+	transform: rotate(20deg);
+}
+#about:hover{
+	transform: rotate(50deg);
+}
+#experience:hover{
+	transform: rotate(10deg);	
+}
+
+
+/*grid-template-areas:
+	"abo pic pic pic pic"
+	"abo pic pic pic pic"
+	"exp pic pic pic pic"
+	"exp edu edu edu edu"
+	"exp ref ref ref ref"; fail */
