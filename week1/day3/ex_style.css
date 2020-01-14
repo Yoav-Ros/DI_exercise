@@ -1,0 +1,107 @@
+body{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Seymour One', sans-serif; 
+}
+
+img{
+	border-radius: 50%;
+	border: 1px solid #52BE80 ;
+	margin: 10px;
+	
+
+}
+#main_container{
+	height: 100vh;
+	display: grid;
+	grid-template-areas:
+	"header header"
+	"side_bar side_bar"
+	"photos photos";
+}
+
+#header{
+	grid-area: header;
+	background-color: #FBEEE6 ;
+}
+#side_bar{
+	grid-area: side_bar;
+	border: 2px solid #F3DE96 ;
+	padding-left: 10px; 
+	background-color: #e6ffff;
+}
+#photos{
+	grid-area: photos;
+	border: 3px solid #F3DE96 ;
+	background-color: #DAF7A6 ;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+
+
+/*#footer{
+	background-color: purple;
+	text-align: left;
+	height: 10vh;
+	border-top: 1px solid black;
+	position: fixed;
+	width: 100%;
+}*/
+
+
+@media only screen and (min-width: 801px){
+	#main_container{
+		display: grid;
+		grid-template-areas: 
+		"header header header header"
+		"side_bar photos photos photos"
+		"side_bar photos photos photos"
+	}
+	#photos{
+		display: flex;
+		justify-content: space-between;
+	}
+}
+
+
+@media only screen and (min-width: 1200px){
+	#main_container{
+		display: grid;
+		grid-template-areas: 
+		"header header header header header header header"
+		"side_bar photos photos photos photos photos photos"
+		"side_bar photos photos photos photos photos photos"
+		"side_bar photos photos photos photos photos photos"
+	}
+	#photos{
+		display: flex;
+		justify-content: space-between;
+	}
+
+}
+
+
+.trav_pic{
+	width: 200px;
+	height: 150px;
+	box-shadow: 2.5px 5px;
+	color: #52BE80;
+}
+.pic_found{
+	width:100px;
+	height: 80px;
+}
+
+
+h1{
+	color: #FF5733;
+	border-bottom:1px solid #FFC300 ;
+	text-align: center;
+	
+}
+#book{
+	margin-left: 50px;
+	margin-bottom: 10px;
+}
