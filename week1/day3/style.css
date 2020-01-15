@@ -125,3 +125,12 @@ div{
 	grid-row: 8 / span 2; 
 }
 
+
+
+/* center items in box
+.center{
+	display:flex;
+	justify content:center;
+	align-itmes:center;
+}
+*/
