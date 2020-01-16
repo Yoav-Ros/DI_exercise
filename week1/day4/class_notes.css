@@ -3,6 +3,11 @@
 	margin-top: 10px;
 }
 
+img{
+	margin: 2px;
+	border: 1px solid grey;
+	padding: 2px;
+}
 
 .jumbotron{
 	opacity: 0.8
@@ -16,4 +21,18 @@
 .my_text{
 	border-left: 3px solid grey;
 	padding-left: 10px;
+}
+
+.card{
+	border-bottom: 1px solid grey;
+	background-color: lightblue;
+	height: 500px;
+}
+
+.card li{
+	border: 1px solid lightgrey;
+}
+#pic{
+	display: flex;
+	justify-content: space-between;
 }

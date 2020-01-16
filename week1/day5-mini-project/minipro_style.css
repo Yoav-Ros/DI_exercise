@@ -1,0 +1,88 @@
+
+/* jumbotron*/
+.jumbotron {
+    margin-bottom: 0px;
+    /*background-image: url(https://images.unsplash.com/photo-1483737946376-7c6c89443adb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);*/
+    background-size: cover;
+ }
+
+.display-4{
+	text-align: center;
+	font-family: 'Adamina', serif;
+}
+.lead{
+	text-align: center;
+	font-family: 'Adamina', serif;
+}
+
+.nav-link{
+	color: #9fbbf2;
+}
+
+
+
+
+
+
+
+/*cards*/
+
+.boxtext{
+ 	text-align: center;
+ align-content: center;
+ 	background-color: #f0d39e;
+ 	padding: 0px;
+}
+
+.icon_s{
+	height: 70px;
+	width: 70px;
+
+}
+
+
+
+/*id section*/
+.headmid{
+	
+	text-align: center;
+	align-content: center;
+	border-bottom: 5px solid black;
+}
+
+
+
+
+/*button under table*/
+#butrow{
+	justify-content: center;
+	padding-bottom: 20px;
+}
+
+
+/*footer*/
+.headbot{
+	background-color: lightgrey;
+	text-align: center;
+	margin-bottom: 0px;
+	padding-bottom: 20px;
+
+}
+
+
+
+#box_cont{
+	background-color: lightgrey;
+}
+
+.box1{
+	
+}
+.box2{
+	
+	
+}
+.box3{
+	
+	
+}
