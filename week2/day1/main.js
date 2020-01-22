@@ -1,20 +1,3 @@
-// let value = 0; 
-// let operator = '';
-// let second_value = 0;
-
-// function my_f(i){
-// 	if (typeof==Number){
-// 		value = value + Number(i);
-// 		f_value = value
-// 		console.log(f_value);
-// 		return f_value;
-// 	}
-// 	// else if(){
-
-// 	// }
-//  }
-
-
 
 let param_1 = 0;
 let param_2=0;
@@ -37,15 +20,16 @@ function my_f(param){
 		else if (symbol=='/'){
 			param_1=param_1 / param_2;
 		}
-	
-		Alert(Param_1)
+		
+		alert(param_1)
+		param_1 = 0;
 	}
 	else{
 		if(param_1 ==0){
-			param_1=param;
+			param_1 = param;
 		}
 		else{
-			param_2 =param;
+			param_2 = param;
 		}
 	}
 }

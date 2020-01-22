@@ -82,7 +82,100 @@
 
 // Ninja///////////////////////////////////////////////////////////////////////
 // exercise 1 ///////////////////////////////
-let family = []
+// let family = {
+// 	brothers: 5,
+// 	sisters: 6,
+// 	little_brothers: 7,
+// 	}
+
+// for(i in family){
+// 	console.log(i);
+// 	console.log(family[i]);
+// }
+
+
+// buiulding exercise 2 
+// var building = {
+//     number_levels : 4,
+//     number_of_apt_by_level : {
+//         "1": 3,
+//         "2": 4,
+//         "3": 9,
+//         "4": 2,
+//     },
+//     name_of_tenants : ["Sarah", "Dan", "David"],
+//     number_of_rooms_and_rent: {
+//         "Sarah": [3, 2000],
+//         "Dan":  [4, 1000],
+//         "David": [1, 10],
+//     },
+// };
+
+// console.log(building.number_levels);
+// console.log(building.number_of_apt_by_level[1]) 
+// console.log(building.number_of_apt_by_level[3]);
+// let sum = building.number_of_apt_by_level[1] + building.number_of_apt_by_level[3]
+// console.log(sum)
+// console.log(building.name_of_tenants[1], building.number_of_rooms_and_rent.Dan[0]);
+// let s_and_d_rent = building.number_of_rooms_and_rent.Sarah[1]+building.number_of_rooms_and_rent.David[1]
+// let d_rent = building.number_of_rooms_and_rent.Dan[1]
+// if(s_and_d_rent>d_rent){
+// 	console.log('Increase the rent');
+// 	d_rent = s_and_d_rent;
+// 	console.log("Dan's new rent is: " + d_rent + "$")
+// };
+
+
+// exercise 2 groceries
+// let groceries = ["banana", "orange", "apple"];
+// var stock = { 
+//     "banana": 6, 
+//     "apple": 0, 
+//     "orange": 32 
+// }  
+
+// var prices = {    
+//      "banana": 4, 
+//     "apple": 2, 
+//     "orange": 1.5 
+// } 
+
+
+// let firstKey = Object.entries(prices);
+// let stock_ent = Object.entries(stock);
+// console.log(firstKey[0][0])
+
+
+
+
+// // myBill(groceries)
+
+
+
+// // ninja ex 4
+// let obj1 = {
+// 	name: geralt_of_rivia,
+// 	mass:"massive",
+// 	height: "very tall",
+// }
+
+
+
+// ex key less car/////////////////////////////////////////////////////////
+// let age = prompt("what is your age? ");
+// function car(age){
+// 	if (isNaN(age))
+// 		alert("this is not a valid response")
+// 	else if (age<18){
+// 		alert("Sorry, you are too young to drive this car. Powering off")	
+// 	}
+// 	else if (age == 18) {
+// 	 	alert("Congratulations on your first year of driving. Enjoy the ride!")	
+// 	}
+// 	else
+// 		alert("Powering On. Enjoy the ride!")
+// }
+// car(age)
 
 
 
@@ -91,6 +184,40 @@ let family = []
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// daily challenge:
+// const arr = [5,0,9,1,7,4,2,6,3,8];
+// let temp;
+// for (i=o; i<arr.length;i++){
+// 	for (j=0;j<arr.length;j++){
+// 		if(arr[i]>arr[j]){
+//  			temp = arr[i];
+//  	 		arr[i]=arr[j];
+//  	 		arr[j]=temp;
+// 			}	
+// 		}
+// }
 
 
 
@@ -194,6 +321,9 @@ let family = []
 // for(i=1;i<6;i++){
 // 	console.log("* ".repeat(i));
 // }
+
+
+
 
 
 
