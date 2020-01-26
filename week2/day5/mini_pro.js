@@ -68,10 +68,13 @@ function check(char){
 	}
 	return false
 }
-ten_loops_game(input_placeholder)
+
 
 function ten_loops_game(guess){
 	for(i=10; i>=1; i--){
+		if(i=1){
+			alert("no more tries, you lose")
+		}
 		if (check(input_placeholder)== true){
 			for (j=0; j<the_chosen.length;j++){
 				if(input_placeholder == the_chosen[j]){
@@ -80,44 +83,30 @@ function ten_loops_game(guess){
 				else{
 					return false 
 				}
+
 			}
 		}
 	}
 }
 
-function reveal_letter(ten_loops_game){
-	if (ten_loops_game() =true){
-		console.log('hi')
-	}
-}
+// function reveal_letter(ten_loops_game){
+// 	if (ten_loops_game(input_placeholder) == true){
+// 		console.log('hi')
+// 	}
+// }
 
 function input_whole_word(input_test_word){
 	if (input_test_word == the_chosen){
 		console.log('win')
 	}
 }
-reveal_letter(input_placeholder)
+// reveal_letter(input_placeholder)
 
 input_whole_word(input_test_word)
 // loop and check user input against a word for one option
 // for the second option compare word to word as an if condition  
 
 
-
-
-	// // Loop 10 times to start the actuall game 
-	// for (i=10; i>0; i--){
-	// 		let user_input = prompt(" letter");
-	// 		for(i in chosen){
-	// 			if (user_input == chosen[i]){
-
-	// 			}
-	// 		}
-
-
-
-
-	// 	}
 
 
 
