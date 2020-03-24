@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+
+{% block title %}Pokemon Phone Home{% endblock %}
+
+{% block content %}
+{% if user.is_authenticated %}
+  Hi {{ user.username }}! You are Pokelogged to the Poke-system!
+{% else %}
+  <p>You are not Poke-logged in</p>
+  <a href="{% url 'login' %}">login</a>
+{% endif %}
+{% endblock %}
