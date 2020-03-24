@@ -1,5 +1,18 @@
 # tic tac die
-def make_rows ()
+# def make_rows () ##### for later
+
+
+
+
+small_board = [[0,0,0],[0,0,0],[0,0,0]]
+def start(board):
+    player_input = int((input("choose your destiny - row")))
+    player_input2 = int((input("choose your destiny - column")))
+    answer_list = [player_input, player_input2]
+    print(answer_list)
+
+
+start(board)
 
 
 # 1. ask user for rows about the size of the board - create empty (' ') lists based on user input
